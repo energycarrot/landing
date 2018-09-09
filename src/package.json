@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "watch": "node-sass --include-path node_modules/bootstrap/scss -o ../docs --source-map true --source-map-contents --watch scss/index.scss"
+    "watch": "node-sass --include-path node_modules/bootstrap/scss -o ../docs --source-map true --source-map-contents --watch scss/index.scss",
+    "build": "node-sass --include-path node_modules/bootstrap/scss -o ../docs --output-style compressed scss/index.scss"
   },
   "repository": {
     "type": "git",
